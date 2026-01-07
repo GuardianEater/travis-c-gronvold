@@ -1,38 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <a href="#projects">Projects</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#snippets">Snippets</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
     <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of the project.</p>
-            <a href="https://github.com/GuardianEater/Engine">View on GitHub</a>
-        </div>
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <div>
+            <h3>Geppetto Engine</h3>
+            <p>Solo project 3D sandbox engine with custom ECS framework.</p>
+          </div>
+          <a href="https://github.com/GuardianEater/Engine" target="_blank" rel="noopener">GitHub</a>
+        </article>
+        <article class="project-card">
+          <div>
+            <h3>NiteLite Engine</h3>
+            <p></p>
+          </div>
+        </article>
+        <article class="project-card">
+          <div>
+            <h3>NightLight</h3>
+            <p></p>
+          </div>
+        </article>
+      </div>
     </section>
+
+    <section id="snippets" class="snippet-showcase">
+      <div class="section-lede">
+        <h2>Code Highlights</h2>
+        <p>Some stuff I think is cool.</p>
+      </div>
+
+      <article class="snippet-card">
+        <div class="snippet-code">
+          <div class="code-header">
+            <span>PBR-Skinned.glsl</span>
+            <span class="code-lang">GLSL</span>
+          </div>
+          <pre><code>
+          </code></pre>
+        </div>
+        <div class="snippet-body">
+          <h3>Physically Based Rendering with Animations</h3>
+          <p>PBR description.</p>
+        </div>
+      </article>
+
+      <article class="snippet-card">
+        <div class="snippet-code">
+          <div class="code-header">
+            <span>Archetypes.cpp</span>
+            <span class="code-lang">C++</span>
+          </div>
+          <pre><code>
+          </code></pre>
+        </div>
+        <div class="snippet-body">
+          <h3>Archetypes in ECS</h3>
+          <p>Archetypes Description.</p>
+        </div>
+      </article>
+    </section>
+
     <section id="about">
-        <h2>About Me</h2>
-        <p>Short bio about yourself.</p>
+      <h2>About Me</h2>
+      <p>God</p>
     </section>
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:travis.gronvold@gmail.com">travis.gronvold@gmail.com</a></p>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:travis.gronvold@gmail.com">travis.gronvold@gmail.com</a></p>
     </section>
-    <footer>
-        <p>&copy; 2024 Travis Gronvold</p>
-    </footer>
+  </main>
+  <footer>
+    <p>&copy; 2024 Travis Gronvold</p>
+  </footer>
 </body>
+
 </html>
