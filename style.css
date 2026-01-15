@@ -217,26 +217,6 @@ pre {
   margin-top: 0.4rem;
 }
 
-.hl-comment {
-  color: #6b88c4;
-}
-
-.hl-keyword {
-  color: #82f5c2;
-}
-
-.hl-function {
-  color: #ffd479;
-}
-
-.hl-string {
-  color: #ffa7c4;
-}
-
-.hl-number {
-  color: #8cc4ff;
-}
-
 #about p,
 #contact p {
   color: var(--muted);
