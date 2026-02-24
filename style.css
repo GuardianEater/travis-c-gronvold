@@ -19,6 +19,7 @@
 
 body {
   font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
+  font-size: 150%;
   margin: 0;
   padding: 0;
   line-height: 1.7;
@@ -83,7 +84,7 @@ nav a:focus-visible::after {
 }
 
 main {
-  max-width: 1200px;
+  max-width: 1700px;
   margin: 0 auto;
   padding: 3rem 1.5rem 4rem;
   display: flex;
