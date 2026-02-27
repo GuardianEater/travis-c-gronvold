@@ -137,12 +137,12 @@ section h2 {
   font-weight: 600;
 }
 
-.snippet-showcase .section-lede {
+.showcase .section-lede {
   max-width: 640px;
   margin-bottom: 1.5rem;
 }
 
-.snippet-card {
+.showcase-card {
   display: grid;
   grid-template-columns: minmax(260px, 40%) 1fr;
   gap: 1.5rem;
@@ -153,21 +153,21 @@ section h2 {
   margin-top: 1.5rem;
 }
 
-.snippet-code {
+.showcase-video {
   background: var(--syntax-bg);
   border: 1px solid var(--syntax-border);
   border-radius: 12px;
   overflow: hidden;
 }
 
-.snippet-code video { 
+.showcase-video video { 
   width: 100%; 
   display: block; 
   aspect-ratio: 16 / 9; 
   object-fit: cover; 
 }
 
-.code-header {
+.showcase-video-header {
   padding: 0.75rem 1rem;
   display: flex;
   justify-content: space-between;
@@ -193,17 +193,17 @@ pre {
   overflow-x: auto;
 }
 
-.snippet-body {
+.showcase-description {
   display: flex;
   flex-direction: column;
   gap: 0.85rem;
 }
 
-.snippet-body h3 {
+.showcase-description h3 {
   margin: 0;
 }
 
-.snippet-body p {
+.showcase-description p {
   margin: 0;
   color: var(--muted);
 }

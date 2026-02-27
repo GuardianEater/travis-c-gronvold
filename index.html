@@ -18,7 +18,7 @@
   <h1>Travis Gronvold</h1>
     <nav>
       <a href="#projects">Projects</a>
-      <a href="#snippets">Snippets</a>
+      <a href="#showcase">Showcase</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -50,23 +50,31 @@
       </div>
     </section>
 
-    <section id="snippets" class="snippet-showcase">
+    <section id="showcase" class="showcase">
       <div class="section-lede">
-        <h2>Code Highlights</h2>
+        <h2>Showcase</h2>
         <p>Some stuff I think is cool.</p>
       </div>
 
-      <article class="snippet-card">
-        <div class="snippet-code">
-          <div class="code-header">
-            <span>PBR-Skinned.glsl</span>
-            <span class="code-lang">GLSL</span>
+      <article class="showcase-card">
+        <div class="showcase-video">
+          <div class="showcase-video-header">
+            <span>Archetypes</span>
           </div>
           <video src="resources/archetypes.mp4" autoplay loop muted playsinline></video>        
         </div>
-        <div class="snippet-body">
-          <h3>Physically Based Rendering with Animations</h3>
-          <p>Want to talk about:
+        <div class="showcase-description">
+          <h3>Archetyped ECS</h3>
+          <p>
+            This is a personal project of mine that follow an Entity-Component-System (ECS) architecture that makes writing high performance code easy.
+            Its 'one line' modular, so a new system or new component can be registered and start running with a single line of code.
+            Many features get generated through reflection, such as UI and serialization.
+          </p>
+          <p>
+            The video is showing 125k entities running at 60fps with a 0.1% ECS overhead.
+          </p>
+          <p>
+            Want to talk about:
             - Engine Highlevel Overview
               - The engine aims to be a sandbox where I can efficiently create and maintain features
               - Currently Implemented
@@ -87,17 +95,20 @@
         </div>
       </article>
 
-      <article class="snippet-card">
-        <div class="snippet-code">
-          <div class="code-header">
-            <span>Archetypes.cpp</span>
-            <span class="code-lang">C++</span>
+      <article class="showcase-card">
+        <div class="showcase-video">
+          <div class="showcase-video-header">
+            <span>Lighting</span>
           </div>
           <video src="resources/archetypes.mp4" autoplay loop muted playsinline></video>        
         </div>
-        <div class="snippet-body">
-          <h3>Archetypes in ECS</h3>
-          <p>ECS archetype-based entity storage rendering ~20k entities.</p>
+        <div class="showcase-description">
+          <h3>Physically Based Rendering</h3>
+          <p>
+            This a renderer that follows many efficient rendering techniques. It uses deffered rendering, batched rendering, and bindless rendering. 
+            It supports shadow mapping following momentum shadow smoothing, Physically-Based-Rendering(PBR), and
+            Image-Based-Lighting(IBL). The engine also has support for both point light and directional lights.
+          </p>
         </div>
       </article>
     </section>
