@@ -57,57 +57,57 @@
       </div>
 
       <article class="showcase-card">
-        <div class="showcase-video">
+        <div class="showcase-content">
           <div class="showcase-video-header">
             <span>Archetypes</span>
           </div>
-          <video src="resources/archetypes.mp4" autoplay loop muted playsinline></video>        
+          <img src="resources/many-entities.png" autoplay loop muted playsinline></img>
         </div>
         <div class="showcase-description">
-          <h3>Archetyped ECS</h3>
+          <h3>Geppetto Engine Main</h3>
           <p>
-            This is a personal project of mine that follow an Entity-Component-System (ECS) architecture that makes writing high performance code easy.
-            Its 'one line' modular, so a new system or new component can be registered and start running with a single line of code.
+            This is a personal project of mine that is meant to be a playground where I can implement anything I think sounds cool.
+            It's designed to be highly modular, so a new system or new component can be registered and start running with a single line of code.
             Many features get generated through reflection, such as UI and serialization.
-          </p>
-          <p>
-            The video is showing 125k entities running at 60fps with a 0.1% ECS overhead.
-          </p>
-          <p>
-            Want to talk about:
-            - Engine Highlevel Overview
-              - The engine aims to be a sandbox where I can efficiently create and maintain features
-              - Currently Implemented
-                - Spatial Audio
-                - Serialization
-                - Models/Animations
-                - Collision Detection
-                - Cubic Spines
-              - This engine api follows an 
-                - ECS Archetypes, iteration interface
-              - PBR algorithym,
-              - Shadow algorithym
-              - Keyed Vector (std::hive)
-              - gpu_vector
-              - Modular EngineManger
-              - Reflection based component management.
           </p>
         </div>
       </article>
 
       <article class="showcase-card">
-        <div class="showcase-video">
+        <div class="showcase-content">
+          <div class="showcase-video-header">
+            <span>Archetypes</span>
+          </div>
+          <img src="resources/many-entities.png" autoplay loop muted playsinline></img>
+        </div>
+        <div class="showcase-description">
+          <h3>Archetyped ECS</h3>
+          <p>
+            This is an Entity-Component-System (ECS) architecture I've designed and implemented myself based on everything I've learned
+            about how operating systems access memory and execute instructions. It follows an "archetype" based approach which makes
+            iterating over many similar objects highly cache efficient.
+          </p>
+          <p>
+            <!-- The video is showing 125k entities running at 60fps with a 0.1% ECS overhead. -->
+          </p>
+        </div>
+      </article>
+
+      <article class="showcase-card">
+        <div class="showcase-content">
           <div class="showcase-video-header">
             <span>Lighting</span>
           </div>
-          <video src="resources/archetypes.mp4" autoplay loop muted playsinline></video>        
+          <img src="resources/lighting.png"></video>        
         </div>
         <div class="showcase-description">
           <h3>Physically Based Rendering</h3>
           <p>
-            This a renderer that follows many efficient rendering techniques. It uses deffered rendering, batched rendering, and bindless rendering. 
-            It supports shadow mapping following momentum shadow smoothing, Physically-Based-Rendering(PBR), and
-            Image-Based-Lighting(IBL). The engine also has support for both point light and directional lights.
+            This a renderer that follows many modern rendering techniques.
+            It supports rigid shadow mapping as well as soft shadowing. It also uses Physically Based Rendering (PBR) for realistic materials, and
+            Image Based Lighting (IBL) for realistic ambient light. The renderer also has support for both point light and directional lights.
+            My primary optimizations that make this possible are deffered rendering, as well as uniform batching and bindless textures.
+            Point lights also use a local lights optimization, only rendering nearby fragments. 
           </p>
         </div>
       </article>

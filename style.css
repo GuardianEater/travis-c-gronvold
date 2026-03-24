@@ -153,19 +153,27 @@ section h2 {
   margin-top: 1.5rem;
 }
 
-.showcase-video {
+.showcase-content {
   background: var(--syntax-bg);
   border: 1px solid var(--syntax-border);
   border-radius: 12px;
   overflow: hidden;
 }
 
-.showcase-video video { 
+.showcase-content img { 
   width: 100%; 
   display: block; 
   aspect-ratio: 16 / 9; 
   object-fit: cover; 
 }
+
+.showcase-content video { 
+  width: 100%; 
+  display: block; 
+  aspect-ratio: 16 / 9; 
+  object-fit: cover; 
+}
+
 
 .showcase-video-header {
   padding: 0.75rem 1rem;
