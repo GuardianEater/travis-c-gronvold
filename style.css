@@ -242,6 +242,22 @@ pre {
   margin-top: 0.4rem;
 }
 
+@media (max-width: 1200px) {
+  .showcase-card {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .showcase .section-lede {
+    margin-bottom: 1rem;
+  }
+
+  .showcase-description {
+    gap: 0.6rem;
+  }
+}
+
 #about p,
 #contact p {
   color: var(--muted);
@@ -261,19 +277,5 @@ footer {
 
   .project-card {
     flex-direction: column;
-  }
-
-  .showcase-card {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    padding: 1rem;
-  }
-
-  .showcase .section-lede {
-    margin-bottom: 1rem;
-  }
-
-  .showcase-description {
-    gap: 0.6rem;
   }
 }
