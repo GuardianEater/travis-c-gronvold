@@ -130,6 +130,7 @@ section h2 {
   justify-content: space-between;
   gap: 1rem;
   align-items: flex-start;
+  flex-direction: column;
 }
 
 .project-card h3 {
@@ -260,5 +261,19 @@ footer {
 
   .project-card {
     flex-direction: column;
+  }
+
+  .showcase-card {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .showcase .section-lede {
+    margin-bottom: 1rem;
+  }
+
+  .showcase-description {
+    gap: 0.6rem;
   }
 }
