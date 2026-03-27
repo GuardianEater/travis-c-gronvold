@@ -24,44 +24,25 @@
     </nav>
   </header>
   <main>
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="project-grid">
-        <article class="project-card">
-          <div>
-            <h3>Geppetto Engine</h3>
-            <p>Solo project 3D C++ sandbox engine with custom Archetyped ECS framework.</p>
-          </div>
-          <a href="https://github.com/GuardianEater/Engine" target="_blank" rel="noopener">GitHub</a>
-        </article>
-        <article class="project-card">
-          <div>
-            <h3>NiteLite Engine</h3>
-            <p>3D C++ game engine made with a team of 9 which powered multiple games.</p>
-          </div>
-        </article>
-        <article class="project-card">
-          <div>
-            <h3>KnightLight</h3>
-            <p>Highly rated 2D platformer game built in C++ and published on Steam.</p>
-          </div>
-          <a href="https://store.steampowered.com/app/3086850/KnightLight/" target="_blank" rel="noopener">Steam</a>
-        </article>
-      </div>
-    </section>
+
+<!-- CURRENT WORKS ------------------------------------------------------------>
 
     <section id="showcase" class="showcase">
       <div class="section-lede">
         <h2>Showcase</h2>
-        <p>Some stuff I think is cool.</p>
+        <p>Some stuff I'm working on now.</p>
       </div>
+
+<!-- CURRENT WORKS 1 ---------------------------------------------------------->
 
       <article class="showcase-card">
         <div class="showcase-content">
           <div class="showcase-video-header">
             <span>Archetypes</span>
           </div>
-          <img src="resources/many-entities.png" autoplay loop muted playsinline></img>
+          <a href="resources/many-entities.png" target="_blank" rel="noopener noreferrer">
+            <img src="resources/many-entities.png" alt="Preview" width="300">
+          </a>
         </div>
         <div class="showcase-description">
           <h3>Geppetto Engine Main</h3>
@@ -73,12 +54,17 @@
         </div>
       </article>
 
+<!-- CURRENT WORKS 2 ---------------------------------------------------------->
+
       <article class="showcase-card">
         <div class="showcase-content">
           <div class="showcase-video-header">
             <span>Archetypes</span>
           </div>
-          <img src="resources/many-entities.png" autoplay loop muted playsinline></img>
+          <a href="resources/many-entities.png" target="_blank" rel="noopener noreferrer">
+            <img src="resources/many-entities.png" alt="Preview" width="300">
+          </a>
+
         </div>
         <div class="showcase-description">
           <h3>Archetyped ECS</h3>
@@ -93,12 +79,16 @@
         </div>
       </article>
 
+<!-- CURRENT WORKS 3 ---------------------------------------------------------->
+
       <article class="showcase-card">
         <div class="showcase-content">
           <div class="showcase-video-header">
             <span>Lighting</span>
           </div>
-          <img src="resources/lighting.png"></video>        
+          <a href="resources/lighting.png" target="_blank" rel="noopener noreferrer">
+            <img src="resources/lighting.png" alt="Preview" width="300">
+          </a>
         </div>
         <div class="showcase-description">
           <h3>Physically Based Rendering</h3>
@@ -113,11 +103,131 @@
       </article>
     </section>
 
+<!-- PREVIOUS WORKS ----------------------------------------------------------->
+
+    <section id="showcase" class="showcase">
+      <div class="section-lede">
+        <h2>Previous Works</h2>
+        <p>Some stuff I've done in the past</p>
+      </div>
+
+<!-- PREVIOUS WORKS 1 --------------------------------------------------------->
+
+      <article class="showcase-card">
+        <div class="showcase-content">
+          <div class="showcase-video-header">
+            <span>KnightLight Editor Gameplay</span>
+          </div>
+          <a href="resources/KnightLight-editor-0.png" target="_blank" rel="noopener noreferrer">
+            <img src="resources/KnightLight-editor-0.png" alt="Preview" width="300">
+          </a>
+        </div>
+        <div class="showcase-description">
+          <h3>KnightLight</h3>
+          <p>
+            This is a project I worked on my softmore year of college as the technical lead of a team of 7. 
+            I developed the core of the project using a hierarchical object oriented design,
+            where entities contained lists of components defining their behavior.
+            This project was also my first time making a sophisticated serialization system. It had various features such as cacheable scenes and subscenes,
+            as well engine state captures used for having multiple save files. All serialization was done utilizing
+            <a href="https://github.com/Tencent/rapidjson" target="_blank" rel="noopener noreferrer" class="link">RapidJSON</a>.
+          </p>
+        </div>
+      </article>
+
+<!-- PREVIOUS WORKS 2 --------------------------------------------------------->
+
+      <article class="showcase-card">
+        <div class="showcase-content">
+          <div class="showcase-video-header">
+            <span>NiteLite Engine Editor 3D Suika</span>
+          </div>
+          <a href="resources/NiteLite-suika.png" target="_blank" rel="noopener noreferrer">
+            <img src="resources/NiteLite-suika.png" alt="Preview" width="300">
+          </a>
+        </div>
+        <div class="showcase-description">
+          <h3>NiteLite Engine</h3>
+          <p>
+            This project was developed in my junior year, with me acting as the technical lead for a 9 person team.
+          </p>
+          <p>
+            <!-- The video is showing 125k entities running at 60fps with a 0.1% ECS overhead. -->
+          </p>
+        </div>
+      </article>
+
+<!-- PREVIOUS WORKS 3 --------------------------------------------------------->
+
+      <article class="showcase-card">
+        <div class="showcase-content">
+          <div class="showcase-video-header">
+            <span>Combat Cat Inventory</span>
+          </div>
+          <a href="resources/CombatCat-inventory.png" target="_blank" rel="noopener noreferrer">
+            <img src="resources/CombatCat-inventory.png" alt="Preview" width="300">
+          </a>
+        </div>
+        <div class="showcase-description">
+          <h3>Combat Cat</h3>
+          <p>
+            This is my first published game 
+          </p>
+        </div>
+      </article>
+    </section>
+
+<!-- PROJECTS ----------------------------------------------------------------->
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <div>
+            <h3>Geppetto Engine</h3>
+            <p>Solo project 3D C++ sandbox engine with custom Archetyped ECS framework.</p>
+          </div>
+          <a href="https://github.com/GuardianEater/Engine" target="_blank" rel="noopener noreferrer" class="link">GitHub</a>
+        </article>
+        <article class="project-card">
+          <div>
+            <h3>NiteLite Engine</h3>
+            <p>3D C++ game engine made with a team of 9 which powered multiple games.</p>
+          </div>
+        </article>
+        <article class="project-card">
+          <div>
+            <h3>KnightLight</h3>
+            <p>Highly rated 2D platformer game built in C++ and published on Steam.</p>
+          </div>
+          <a href="https://store.steampowered.com/app/3086850/KnightLight/" target="_blank" rel="noopener noreferrer" class="link">Steam</a>
+        </article>
+        <article class="project-card">
+          <div>
+            <h3>Combat Cat</h3>
+            <p>Highly rated 2D rouge like game built in C and published on Steam.</p>
+          </div>
+          <a href="https://store.steampowered.com/app/2925730/Combat_Cat/" target="_blank" rel="noopener noreferrer" class="link">Steam</a>
+        </article>
+        <article class="project-card">
+          <div>
+            <h3>Bounding Blocks</h3>
+            <p>Simple 2D adventure game, my first game made on a team</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+<!-- ABOUT -------------------------------------------------------------------->
+
     <section id="about">
       <h2>About Me</h2>
       <p>I am a C++ programmer focused on game engine and systems development. I enjoy working close to hardware on performance-critical systems such as ECS architectures, rendering pipelines, and tooling.</p>
       <p>I am currently studying Real-Time Interactive Simulation at DigiPen and building a custom engine and editor, with an emphasis on clean APIs, data-driven design, and debuggability. I am seeking software engineering or engine programming roles where I can contribute to complex systems and continue learning from experienced engineers.</p>
     </section>
+
+<!-- CONTACT ------------------------------------------------------------------>
+
     <section id="contact">
       <h2>Contact</h2>
       <p><a href="mailto:travis.gronvold@gmail.com">travis.gronvold@gmail.com</a></p>
