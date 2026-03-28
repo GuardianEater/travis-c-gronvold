@@ -17,6 +17,12 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
   font-size: 150%;
@@ -104,6 +110,12 @@ section {
 section h2 {
   margin-top: 0;
   font-size: clamp(1.5rem, 2.6vw, 2.2rem);
+}
+
+section,
+.showcase-card,
+.project-card {
+  min-width: 0;
 }
 
 #projects .project-grid {
@@ -261,6 +273,12 @@ pre {
 #about p,
 #contact p {
   color: var(--muted);
+}
+
+#contact a,
+.showcase-video-header span {
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 footer {
